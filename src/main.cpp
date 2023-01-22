@@ -3,7 +3,6 @@
 #include <thread>
 #include "window.hpp"
 #include "chip8.hpp"
-#include <direct.h>
 
 int wmain(int argc, char argv[]) {
 	chip8 emulator = chip8();
